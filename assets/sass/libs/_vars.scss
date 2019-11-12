@@ -31,19 +31,20 @@
 		kerning-alt:		0.25em
 	);
 
+	
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(255,255,255,0.15),
-		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		bg:					darken($color3, 10),
+		bg-alt:				darken($color3, 1),
+		fg:					lighten($color1, 15),
+		fg-bold:			lighten($color1, 15),
+		fg-light:			rgba($color1,0.55),
+		border:				rgba($color1,0.15),
+		border-bg:			rgba($color3,0.05),
+		accent1:			$color2,
+		accent1-alt:		darken($color2, 10),
+		accent2:			$color4,
+		accent2-alt:		darken($color4, 10),
+		accent3:			$color5,
+		accent3-alt:		darken($color5, 10)
 	);
