@@ -186,8 +186,8 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffde59), to(#fbbcb8));
-  background-image: linear-gradient(to right, #ffde59, #fbbcb8);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffde59), to(#995d81));
+  background-image: linear-gradient(to right, #ffde59, #995d81);
   -webkit-transition: max-width 0.2s ease;
   transition: max-width 0.2s ease;
   border-radius: 0.2em;
@@ -2180,7 +2180,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background: #383838;
   border-color: #383838;
-  color: #fbbcb8;
+  color: #995d81;
   content: '\f00c';
 }
 
@@ -2288,11 +2288,11 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #fbbcb8;
+  color: #995d81;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #f88e88;
+  color: #794a66;
 }
 
 /* Image */
@@ -2944,11 +2944,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #fbbcb8;
+  background-color: #995d81;
 }
 
 .wrapper.style3-alt {
-  background-color: #f88e88;
+  background-color: #794a66;
 }
 
 .wrapper.fullscreen {
@@ -3378,8 +3378,8 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffde59), to(#fbbcb8));
-  background-image: linear-gradient(to right, #ffde59, #fbbcb8);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffde59), to(#995d81));
+  background-image: linear-gradient(to right, #ffde59, #995d81);
   -webkit-transition: max-width 0.2s ease;
   transition: max-width 0.2s ease;
   max-width: 0;
@@ -3460,7 +3460,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #fbbcb8;
+    background-color: #995d81;
   }
 }
 
